@@ -1,10 +1,13 @@
 body {
-	font-family: Century Gothic, sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position:relative;
+  z-index:100;
 }
 
 img {
 	width: 100%;
 	height: auto;
+  vertical-align: text-top;
 }
 
 #container {
@@ -19,10 +22,29 @@ h1 {
 	font-weight: bold;
 }
 
+/*h2 span {
+  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+h1 span {
+  background-color: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}*/
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 100%;
   overflow: hidden;
   background-color: red;
 }
@@ -70,4 +92,10 @@ ul.topnav li.icon {display: none;}
     display: block;
     text-align: left;
   }
+}
+
+#watercolor {
+  float: right;
+  max-width: 600px;
+  margin-left: 10px;
 }
