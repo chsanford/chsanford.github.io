@@ -1,0 +1,11 @@
+body {
+	font-family: "Comic Sans MS"
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+b {
+	color: red
+}
