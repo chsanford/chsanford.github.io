@@ -1,0 +1,154 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="../../img/fav.png">
+		<meta name="author" content="colorlib">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta charset="UTF-8">
+		<title>Paper Summary: Density estimation for shift-invariant multidimensional distributions</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		<link rel="stylesheet" href="../../css/linearicons.css">
+		<link rel="stylesheet" href="../../css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../css/bootstrap.css">
+		<link rel="stylesheet" href="../../css/magnific-popup.css">
+		<link rel="stylesheet" href="../../css/owl.carousel.css">
+		<link rel="stylesheet" href="../../css/main.css">
+		<link rel="stylesheet" href="../../css/blog.css">
+
+		<script src="https://fred-wang.github.io/mathjax.js/mpadded-min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129894666-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-129894666-1');
+		</script>
+		<script
+		    src="https://code.jquery.com/jquery-3.3.1.js"
+		    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		    crossorigin="anonymous">
+		</script>
+		<script async src="../blog_page.js"></script>
+	</head>
+	<body>
+		<section class="banner-area" id="home">
+			<div id="header"></div>
+		</section>
+
+		<section class="contact-area section-gap" id="other">
+			<div class="container">
+				 <div class="row d-flex justify-content-center">
+					<div class="menu-content pb-20 col-lg-12">
+						<div class="title text-center">
+							<h1 class="mb-10">Paper Summary: </h1>
+							<h2><a href="https://arxiv.org/abs/1811.03744">Density estimation for shift-invariant multidimensional distributions</a></h2>
+						</div><br>
+
+						<p><h3>About this entry</h3></p>
+
+						<p><i>This is the first in a series of paper summaries that I’m going to be writing over the course of the next few months to help me prepare for my PhD program this fall at Columbia. The papers I’ll discuss are all in subfields of machine learning and algorithms that I like: neural network generalization, probability distribution estimation (like this paper!), property testing, and algorithmic fairness. Since this is a way for me to develop my academic reading and writing skills, I would appreciate any feedback that can help me get better.</i></p>
+
+						<p>This week, I read “Density estimation for shift-invariant multidimensional distributions”, which was co-authored by my soon-to-be advisor, Rocco Servedio, along with Anindya De and Philip Long. I assume the reader of this summary is familiar with basic probability and algorithmic concepts like reductions and time complexity. The paper relies extensively on Fourier analysis, but I don’t expect much background there.</p>
+
+						<p><h3>What problem does the paper try to solve?</h3></p>
+
+						<p>Understanding the underlying probability distribution is key for figuring out what’s going on in statistical problems. However, it’s extremely rare for to actually have access to an explicit distribution that tells us exactly how often to expect each outcome. Rather, we might see a sequence of independent samples drawn from the distribution, which we can use to predict which distribution was likely to produce them. This paper does just that: given observed samples from a data source, it proposes an algorithm that estimates a density function, which tells us with what frequency to expect that the random draws take on certain values.</p>
+
+						<p>Sometimes, the nature of a problem defines what kind of distribution we can expect, and we only need to predict a few parameters that define the distribution. For instance, we can often assume that we are drawing from a Gaussian, so predicting the distribution requires only estimating its mean and variance. For non-parametric estimation, however, we assume no knowledge of the distribution and need to construct it entirely from scratch. This paper studies non-parametric estimation, with a few broad requirements that the distribution must satisfy.</p>
+
+						<p>Non-parametric estimation is not a new problem and there are two approaches that are commonly taught in introductory Machine Learning classes. Both of these methods rely on a simple assumption: If we’ve observed a large number of samples clustered together, then we expect that they are in a “dense” region that has a high probability of having more samples in future draws.
+							<ol>
+								<li>The <a href="https://en.wikipedia.org/wiki/Histogram">histogram method</a> involves imposing a grid on the sample space. The probability density of any location is proportional to the number of observations found in the cell it resides in.</li>
+								<li><a href="https://en.wikipedia.org/wiki/Kernel_density_estimation">Kernel Density Estimation</a> estimates a distribution by adding up kernels (“bumps”), that are placed wherever we’ve previously found a sample. This creates a smoothness of sorts, such that the predicted probabilities increase the closer a point is to a cluster of samples.</li>
+							</ol>
+						</p>
+
+						<p>While these methods make intuitive sense and do a good job of producing basic estimations, they are very general methods that work for any continuous probability distributions. In addition, they both require selecting hyperparameters that balance the bias-variance trade-off (grid size for histograms and kernel size and shape for KDE).</p>
+
+						<p>This paper explores the specific case of shift-invariant distributions, which have the property that shifting the distribution in a by a short distance does little to affect the the probability of each coordinate. Put rigorously a distribution f’s shift invariance with scale \kappa is defined as <img src= "img/latex/si_def.png" height="40">. (Note that sup means essentially the same thing as max.) This bounds the total difference between the probability of each location before and after the distribution is shifted by vector v. We then define a set of shift-invariant functions <img src="img/latex/csi_def.png" height = 40>C_SI(c,d,g) to be all d-dimensional distributions f such that SI(f, \kappa) <= c for all values of kappa, whose tails are bounded by some other function g (to keep the bulk of the distribution concentrated in one place). This is a way of formalizing a notion of smoothness, which means the distribution cannot have large changes in probability density for nearby regions. This condition is commonly satisfied for popular continuous distributions such as Gaussians. The authors introduce a method for solving this problem by taking advantage of the structural properties of these kinds of distributions.</p>
+
+						<p><h3>What are the paper’s results?</h3></p>
+
+						<p>The bulk of the paper is devoted to introducing an algorithm that learns shift-invariant distributions and analyzing its precision, likelihood of success, time complexity, and sample complexity (how many samples are needed for the algorithm to run properly). Here is the main result put rigorously as a theorem.</p>
+
+
+						<p>Let’s break this down into pieces and see if we can understand each part:
+							<ul>
+								<li>“For any c, g as above and d >= 1” []</li>
+								<li>“let f be a density (unknown to the algorithm)” []</li>
+								<li>“belongs to C_SI(c, d, g)” []</li>
+								<li>“let f’ be an epsilon-corruption of f” []</li>
+								<li>“access to independent draws from f’” []</li>
+								<li>"with probability 1 - O(delta)” []</li>
+								<li>“outputs hypothesis h: [-1,1]^d -> R^>=0” []</li>
+								<li>“such that \integral_{x \in R^d} |f’(x) - h(x)| \leq O(\epsilon)” []</li>
+								<li>“The algorithm runs in time …” []</li>
+								<li>“and uses … samples.” []</li>
+							</ul>
+						</p>
+
+						<p>They use these results to prove a bound for another problem in learning distributions: when the distribution is log-concave. These are common distributions, which include Gaussians, exponential distributions, Laplace distributions, and gamma distributions (for choices of parameters). They show that there is algorithm that correctly estimates log-concave densities with error \epsilon and probability of success 1 - \delta that uses [RUNTIME THM 1] time and [SAMPLES THM 1] samples. This is actually not the most efficient algorithm for learning log-concave distributions in terms of the number of samples needed (that honor belongs to <a href="https://arxiv.org/abs/1605.08188">this paper</a>). However, this algorithm has better time complexity, which highlights a trade-off between runtime and number of samples required.</p>
+
+						<p>Finally, the authors argue that the algorithm they presented is close to optimal in this domain. They do so by proving that no algorithms can solve this problem with [INFO ABOUT BOUND]. While the presented algorithm is not perfect and has room for improvement, they rule out the existence of an algorithm for the task that is far better than the one here. This result is proven with Fano’s inequality, a key result from information theory. Essentially, they show that with any fewer samples, no algorithm will have enough information to distinguish the correct distribution from a set of sufficiently different imposters with reasonable probability.</p>
+
+						<p><h3>How does the algorithm work?</h3></p>
+
+						<p>There are 3 main steps in how the main algorithm works to estimate some probability distribution p:
+							<ol>
+								<li>Construct a distribution q, which is a transformed version of p that meets several properties that make it nicer. For example, q has bounded support, which means that all samples are observed within a radius of 1/2 around the origin. We establish a procedure for sampling from q, which involves drawing multiple samples from p and transforming the samples.</li>
+								<li>Estimate the density of q by first estimating some of the Fourier coefficients of a similar distribution. We rely on samples from q for this step, each of which in turn is generated by a sequence of samples from p.</li>
+								<li>Transform our estimated distribution for q back into a distribution for p.[VISUAL]</li>
+							</ol>
+						</p>
+
+						<p>The paper is long ([NUM PAGES]), so I don’t plan on covering the entire algorithm and proof here. I will focus on an intuitive discussion of step 2. The other segments are interesting, but step 2 contains the most novel insights produced by the paper, since it relies on exploiting the structure of shift-invariant distributions to obtain tighter bounds than are possible elsewhere.</p>
+
+
+						<p>Regarding Fourier transforms, here’s what you need to know. A Fourier transform converts a function into the frequency domain, which means it decomposes it into a sum of waves. [EXPLICIT FORMULATION OF FT] The values [____] are Fourier coefficients. Because we can convert back into the original function space using an inverse Fourier transform, if we learn the Fourier coefficients, we learn the original function. And that’s how step 2 roughly works — we predict the Fourier coefficients of q and use those to reverse-engineer q. [IMAGE OF FT]</p>
+
+						<p>But how do we predict those coefficients if there are an infinite number of them? We transform q using something called a mollifier [LINK], which means we apply additive noise drawn from this distribution [MOLLIFIER DIST]. This has two important effects:
+							<ol>
+								<li>The mollifier “smooths” the noisy distribution. This function was specifically chosen because it causes the high frequency terms (mathematical expression) to be insignificantly small.</li>
+								<li>The mollifier does little to change the overall shape of the distribution. Because the original distribution is shift-invariant and the mollifier is parametrized according to the shift invariance bounds, the distance between the original distribution and the noisy distribution is limited by [BOUND (eps / 2)?].</li>
+							</ol>
+						</p>
+
+						<p>Because each Fourier coefficient of the noisy distribution is an integral over a probability distribution, we can accurately predict the coefficients by drawing from the noisy distribution (which we do by adding a sample from q and a sample from the mollifier). Because the coefficients of frequencies of high magnitude grow exponentially small, we assume all Fourier coefficients with frequencies greater than some magnitude are 0 (we choose that magnitude based on [VARIABLES] to ensure the total error between the predicted distribution and the true distribution is minimal). We estimate the remaining coefficients with the sampling method described at the beginning of the paragraph. With the computed Fourier coefficients, we can obtain q(x) by computing an inverse Fourier transform, which is computationally feasible due to the assumption that all but a few of the coefficients are zero.</p>
+
+						<p>Remember that each time we sample from q, we must sample multiple times from p in order to ensure that q is sampled properly. There’s a lot more complication in steps 1 and 3 for stating exactly how to do this while limiting the number of erroneous samples from q. Altogether, the paper is built on this insight regarding the efficient estimation a certain kind of distribution with Fourier analysis, and the rest of it covers how transform more loosely-defined distributions to the given form.</p>
+
+						<p><h3>Conclusion</h3></p>
+
+						<p>Because this paper falls under the umbrella of Theoretical Computer Science, and because the algorithm’s time and sample complexity are hobbled by a dependence on some very large constants, its results are not likely to produce an immediately practical data science algorithm. This paper is particularly valuable for understanding these kinds of smooth and log-concave distributions, and its insights could inform the creation of more efficient (and less rigorous) algorithms that perform well in practice.</p>			
+					</div>
+				</div>										
+			</div>	
+		</section>
+
+		<footer class="footer-area section-gap">
+			<div class="container">
+				<div class="row">
+						<div class="single-footer-widget">
+          		<p class="footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>	
+
+		<script src="../../js/vendor/jquery-2.2.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="../../js/vendor/bootstrap.min.js"></script>
+		<script src="../../js/jquery.ajaxchimp.min.js"></script>
+		<script src="../../js/jquery.magnific-popup.min.js"></script>
+		<script src="../../js/parallax.min.js"></script>			
+		<script src="../../js/owl.carousel.min.js"></script>			
+		<script src="../../js/jquery.sticky.js"></script>
+
+		<script src="../../js/main.js"></script>	
+	</body>
+</html>
