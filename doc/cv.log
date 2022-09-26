@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  7 SEP 2022 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  26 SEP 2022 13:57
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -339,13 +339,19 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
  []
 
 
-Overfull \hbox (10.62672pt too wide) in paragraph at lines 95--96
+Overfull \hbox (0.8422pt too wide) in paragraph at lines 99--100
+[]\OT1/cmr/m/n/10.95 V. Chatziafratis*, I. Panageas*, C. Sanford*, S. Stavroula
+kis*. ``On scrambling phenomena for randomly
+ []
+
+
+Overfull \hbox (10.62672pt too wide) in paragraph at lines 101--102
 \OT1/cmr/m/n/10.95 Lower Bounds for Agnostically Learning Intersections of Half
 spaces with Gaussian Marginals.'' \OT1/cmr/m/it/10.95 Conference
  []
 
 
-Overfull \hbox (14.2864pt too wide) in paragraph at lines 97--98
+Overfull \hbox (14.2864pt too wide) in paragraph at lines 103--104
 []\OT1/cmr/m/n/10.95 C. Sanford, V. Chatziafratis. ``Expressivity of Neural Net
 works via Chaotic Itineraries beyond Sharkovsky's
  []
@@ -355,38 +361,38 @@ works via Chaotic Itineraries beyond Sharkovsky's
 {/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
 ftex.map}]
 
-cv.tex:165: LaTeX Error: Something's wrong--perhaps a missing \item.
+cv.tex:171: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 \end{rSubsection}
+l.171 \end{rSubsection}
                        
 ? 
 
-Overfull \hbox (7.67995pt too wide) in paragraph at lines 185--186
+Overfull \hbox (7.67995pt too wide) in paragraph at lines 191--192
 []\OT1/cmr/bx/n/10.95 Artificial Intelligence: \OT1/cmr/m/n/10.95 Machine Learn
 ing, Artificial Intelligence, Foundations of Prescriptive Analytics,
  []
 
-[2] [3]
-Overfull \hbox (52.7134pt too wide) in paragraph at lines 321--327
+[2] [3] [4]
+Overfull \hbox (52.7134pt too wide) in paragraph at lines 346--352
 [][] 
  []
 
-[4] (cv.aux)
+[5] (cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8313 strings out of 480616
- 134832 string characters out of 2895960
+ 8314 strings out of 480616
+ 134838 string characters out of 2895960
  439171 words of memory out of 3000000
  26104 multiletter control sequences out of 15000+600000
  407770 words of font info for 41 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,6n,76p,576b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,6n,76p,576b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
 ur/jknappen/ec/dpi600/tcrm1095.pk></Users/Clayton/Library/Application Support/M
 iKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/Clayton/
@@ -396,9 +402,9 @@ fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/Clayton/Library/Application Su
 pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/C
 layton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
 fonts/cm/cmti10.pfb>
-Output written on cv.pdf (4 pages, 101838 bytes).
+Output written on cv.pdf (5 pages, 104301 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
+ 58 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
