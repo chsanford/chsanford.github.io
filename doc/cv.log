@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  12 OCT 2022 18:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  12 JUL 2023 16:06
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -339,19 +339,19 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
  []
 
 
-Overfull \hbox (0.8422pt too wide) in paragraph at lines 99--100
+Overfull \hbox (0.8422pt too wide) in paragraph at lines 100--101
 []\OT1/cmr/m/n/10.95 V. Chatziafratis*, I. Panageas*, C. Sanford*, S. Stavroula
 kis*. ``On scrambling phenomena for randomly
  []
 
 
-Overfull \hbox (10.62672pt too wide) in paragraph at lines 101--102
+Overfull \hbox (10.62672pt too wide) in paragraph at lines 102--103
 \OT1/cmr/m/n/10.95 Lower Bounds for Agnostically Learning Intersections of Half
 spaces with Gaussian Marginals.'' \OT1/cmr/m/it/10.95 Conference
  []
 
 
-Overfull \hbox (14.2864pt too wide) in paragraph at lines 103--104
+Overfull \hbox (14.2864pt too wide) in paragraph at lines 104--105
 []\OT1/cmr/m/n/10.95 C. Sanford, V. Chatziafratis. ``Expressivity of Neural Net
 works via Chaotic Itineraries beyond Sharkovsky's
  []
@@ -361,50 +361,94 @@ works via Chaotic Itineraries beyond Sharkovsky's
 {/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
 ftex.map}]
 
-cv.tex:171: LaTeX Error: Something's wrong--perhaps a missing \item.
+cv.tex:136: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171 \end{rSubsection}
+l.136 \end{rSubsection}
                        
 ? 
 
-Overfull \hbox (7.67995pt too wide) in paragraph at lines 191--192
+Overfull \hbox (0.57613pt too wide) in paragraph at lines 140--141
+[]\OT1/cmr/m/n/10.95 Work presented at NeurIPS 2022 climate ML workshop and Ame
+rican Meteorological Society conference,
+ []
+
+
+cv.tex:178: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \end{rSubsection}
+                       
+? 
+[2]
+Overfull \hbox (7.67995pt too wide) in paragraph at lines 201--202
 []\OT1/cmr/bx/n/10.95 Artificial Intelligence: \OT1/cmr/m/n/10.95 Machine Learn
 ing, Artificial Intelligence, Foundations of Prescriptive Analytics,
  []
 
-[2] [3] [4]
-Overfull \hbox (52.7134pt too wide) in paragraph at lines 346--352
+[3]
+Overfull \hbox (12.00389pt too wide) in paragraph at lines 290--291
+[]\OT1/cmr/m/n/10.95 Columbia StatisticalML Symposium, Columbia University, Apr
+il 2023. ``Transformers can learn pairwise---
+ []
+
+[4]
+Overfull \hbox (10.88979pt too wide) in paragraph at lines 353--354
+[]\OT1/cmr/m/n/10.95 Welcomed prospective students and new concentrators by pla
+nning department-sponsored celebrations. 
+ []
+
+[5]
+Overfull \hbox (69.13843pt too wide) in paragraph at lines 379--385
 [][] 
  []
 
-[5] (cv.aux)
+
+cv.tex:388: LaTeX Error: \begin{list} on input line 310 ended by \end{document}
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.388 \end{document}
+                    
+? 
+[6] (cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 310 (\begingroup)
+### semi simple group (level 1) entered at line 310 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 8314 strings out of 480616
- 134838 string characters out of 2895960
+ 8315 strings out of 480616
+ 134844 string characters out of 2895960
  439171 words of memory out of 3000000
  26104 multiletter control sequences out of 15000+600000
  407770 words of font info for 41 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,6n,76p,576b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
-ur/jknappen/ec/dpi600/tcrm1095.pk></Users/Clayton/Library/Application Support/M
-iKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/Clayton/
-Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/Clayton/Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/C
-layton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmti10.pfb>
-Output written on cv.pdf (5 pages, 104293 bytes).
+ 70i,6n,76p,576b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/Clayton/Library/Application Support/MiKTeX/texmfs/data
+/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk></Users/Clayton/Library/Applica
+tion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></Users/Clayton/Library/Application Support/MiKTeX/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/Clayton/Library/
+Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb>
+Output written on cv.pdf (6 pages, 108630 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
