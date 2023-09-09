@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  9 SEP 2023 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  9 SEP 2023 18:32
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -248,8 +248,7 @@ ackend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box52
-)
-No file resume.aux.
+) (resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -270,6 +269,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -323,6 +323,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
+ (resume.out) (resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -357,19 +358,13 @@ rt positive empirical results. (Manuscript in progress.)
 
 {/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
 ftex.map}] [2] (resume.aux)
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8286 strings out of 480616
- 134479 string characters out of 2895960
- 442949 words of memory out of 3000000
+ 8292 strings out of 480616
+ 134674 string characters out of 2895960
+ 443160 words of memory out of 3000000
  26093 multiletter control sequences out of 15000+600000
  404690 words of font info for 31 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -381,7 +376,7 @@ rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></Users/Clayton/Library/Application Suppo
 rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 96817 bytes).
+Output written on resume.pdf (2 pages, 95620 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
