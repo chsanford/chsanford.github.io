@@ -20,7 +20,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass{resume} % Use the custom resume.cls style
+\documentclass{cv} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{hyperref}
@@ -40,6 +40,7 @@
 \begin{rSection}{Education}
 
 \begin{rSubsection}{Columbia University}{September 2019 - May 2024 (expected)}{Ph.D. Candidate in Computer Science \\ M.S. (Feb. 2021), M.Phil. (Feb 2023)}{GPA: 4.24/4.33}
+\item Proposed Thesis: ``Neural Network Generalization and Approximation with Intrinsically Low-dimensional Data.''
 \item Advisors: Rocco Servedio and Daniel Hsu
 \end{rSubsection}
 
@@ -86,6 +87,41 @@
 
 
 %----------------------------------------------------------------------------------------
+%	INDUSTRY EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Industry Experience}
+
+\begin{rSubsection}{Applied Sciences Intern}{May 2023 - August 2023}{Microsoft Research}{New York, NY}
+\item Trained transformer models with up to 500 million parameters to learn combinatorial search tasks with behavioral cloning and chain-of-thought reasoning.
+\item Proved theoretical results about the advantages of transformers over graph neural networks (GNNs) for identifying isomorphisms between different combinatorial problems, to support positive empirical results. (Manuscript in progress.) 
+\end{rSubsection}
+
+\begin{rSubsection}{Research Intern (PhD)}{May 2022 - August 2022}{Allen Institute for AI}{Seattle, WA}
+\item Improved year-long temperature and humidity predictions of ML-corrected coarse-grid climate models by using novelty detection techniques.
+\item Work presented at NeurIPS 2022 climate ML workshop and American Meteorological Society conference, and under review of the \textit{Journal of Advances in Modeling Earth Systems}.
+\item Recognized with the Outstanding Internship award, a cash prize awarded to four AI2 interns.
+\end{rSubsection}
+
+\begin{rSubsection}{Software Engineering Intern}{April 2019 - August 2019}{Lumi Labs}{Palo Alto, CA}
+\item Front-end and back-end development with direct ownership of new features core to the product.
+\end{rSubsection}
+
+\begin{rSubsection}{Associate Analytics Data Scientist}{August 2018 - April 2019}{LinkedIn}{San Francisco, CA}
+\item Used Hive and SQL to create stable and frequently-used datasets that repopulate daily. 
+\item Performed deep-dive analyses on open questions for the LinkedIn Learning product.
+\item Co-coordinated a bi-weekly machine learning reading group.
+\end{rSubsection}
+
+\begin{rSubsection}{Data Analytics Intern}{June 2017 - August 2017}{LinkedIn}{San Francisco, CA}
+\item Analyzed subscription patterns with LinkedIn Learning team using Pig, HDFS, SQL, and Python.
+\item Contextualized findings in the Learning business and presented to stakeholders.
+\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Publications}
@@ -126,39 +162,6 @@ Intervention Strategies in India.''\\
 * Contributed equally
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	INDUSTRY EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Industry Experience}
-
-\begin{rSubsection}{Applied Sciences Intern}{May 2023 - August 2023}{Microsoft Research}{}
-\end{rSubsection}
-
-\begin{rSubsection}{Research Intern (PhD)}{May 2022 - August 2022}{Allen Institute for AI}{}
-\item Improved year-long temperature and humidity predictions of ML-corrected coarse-grid climate models by using novelty detection techniques.
-\item Work presented at NeurIPS 2022 climate ML workshop and American Meteorological Society conference, and under review of the \textit{Journal of Advances in Modeling Earth Systems}.
-\end{rSubsection}
-
-\begin{rSubsection}{Software Engineering Intern}{April 2019 - August 2019}{Lumi Labs}{}
-\item Front-end and back-end development with direct ownership of new features core to the product.
-\end{rSubsection}
-
-\begin{rSubsection}{Associate Analytics Data Scientist}{August 2018 - April 2019}{LinkedIn}{}
-\item Used Hive and SQL to create stable and frequently-used datasets that repopulate daily. 
-\item Performed deep-dive analyses on open questions for the LinkedIn Learning product.
-\item Co-coordinated a bi-weekly machine learning reading group.
-\end{rSubsection}
-
-\begin{rSubsection}{Data Analytics Intern}{June 2017 - August 2017}{LinkedIn}{}
-\item Analyzed subscription patterns with LinkedIn Learning team using Pig, HDFS, SQL, and Python.
-\item Contextualized findings in the Learning business and presented to stakeholders.
-\end{rSubsection}
-
-\end{rSection}
-
-
-
 
 
 %	AWARDS
@@ -171,18 +174,19 @@ Intervention Strategies in India.''\\
 \end{rSubsection}
 
 \begin{rSubsection}{Paul Charles Michelman Memorial Award}{May 2023}{Columbia Computer Science}{}
-\item Given to a PhD student in Computer Science who has performed exemplary service to the department, devoting time and effort beyond the call to further the department’s goals.
+\item Given to a PhD student in Computer Science who has performed exemplary service to the department, devoting time and effort beyond the call to further the department’s goals (cash prize).
 \end{rSubsection}
 
 \begin{rSubsection}{Department Service Award}{May 2020, 2022, 2023}{Columbia Computer Science}{}
+\item Awarded up to 10\% of PhD students for their service to the department.
 \end{rSubsection}
 
 \begin{rSubsection}{Outstanding Intern Award}{December 2022}{Allen Institute for AI}{}
-\item Awarded to four summer interns who went above and beyond as researchers and as colleagues.
+\item D
 \end{rSubsection}
 
 \begin{rSubsection}{Computer Science Senior Prize}{May 2018}{Brown Computer Science}{}
-\item Cash prize awarded to the top students in the computer science department based on academic achievement and department service.
+\item Awarded to the top students in the computer science department based on academic achievement and department service (cash prize).
 \end{rSubsection}
 
 \begin{rSubsection}{Outstanding Winner}{April 2016}{Interdisciplinary Contest in Modeling}{Consortium for Mathematics and its Applications}
@@ -192,6 +196,47 @@ Intervention Strategies in India.''\\
 
 \end{rSection}
 
+\begin{rSection}{Leadership and Mentorship Experience}
+
+\begin{rSubsection}{Community Board Member}{May 2023 - present}{Manhattan Community Board 9}{New York, New York}
+\item Appointed by the borough president to represent community needs of a district on the west side of Manhattan between 110th and 155th St. 
+\item Serves on the the Economic Development/West Harlem Piers Committee and the LGBTQ Task Force.
+\end{rSubsection}
+
+
+\begin{rSubsection}{PhD Representative}{May 2022 - present}{Department of Computer Science}{Columbia University}
+\item Coordinated a well-attended PhD student welcome event to help new students visit.
+\item Attends faculty meetings to represent student concerns and communicate faculty decisions to student body.
+\item Personally assisted students ensure that the department is paying them adequately and assisted international students with CPT approval issues.
+\end{rSubsection}
+
+\begin{rSubsection}{President}{September 2022 - September 2023}{qSTEM (LGBTQ affinity for School of Engineering)}{Columbia University}
+\item Organized coffee hours, happy hours, movie showings, and board game nights to build community among LGBTQ grad students.
+\end{rSubsection}
+
+
+\begin{rSubsection}{President}{February 2015 - May 2018}{Applied Math Department of Undergraduates (APMA DUG)}{Brown University}
+\item Hosted well-attended advising panels for students interested in Applied Math courses and research.
+\item Created problems for and managed a casual math competition every semester.
+\item Coordinated lectures by Applied Math faculty members for undergrads every semester.
+\item Welcomed prospective students and new concentrators by planning department-sponsored celebrations.
+\end{rSubsection}
+
+\begin{rSubsection}{President}{November 2014 - May 2018}{Outing Club}{Brown University}
+\item Led an executive board of forty members that ran trips every weekend of the academic year.
+\item Managed and apportioned a \$27000 annual budget.
+\item Recruited, interviewed, and trained new trip leaders.
+\end{rSubsection}
+
+\begin{rSubsection}{Peer Advisor}{September 2017 - May 2018}{Matched Advising Program for Sophomores (MAPS)}{Brown University}
+\item Advised two sophomore Applied Math students as they declared their concentrations and decided on coursework and internships.
+\end{rSubsection}
+
+\begin{rSubsection}{Peer Advisor}{September 2015 - May 2017}{Meiklejohn Peer Advisory Program}{Brown University}
+\item Advised eleven first year students on adjusting to college life, selecting courses, building connections, and finding their academic paths.
+\end{rSubsection}
+
+\end{rSection}
 
 
 %----------------------------------------------------------------------------------------
@@ -242,6 +287,10 @@ Intervention Strategies in India.''\\
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Teaching Experience}
+\begin{rSubsection}{Graduate Teaching Assistant}{September 2023 - December 2023}{Columbia University Department of Computer Science}{}
+\item Provided readings for course syllabus, graded assignments, and mentored student final projects for the Machine Learning and Climate graduate seminar, taught by Alp Kucukelbir.
+\end{rSubsection}
+
 \begin{rSubsection}{Graduate Instructor}{January 2022 - May 2022}{Columbia University Department of Computer Science}{}
 \item Developed and taught a lab on basics of data science and ML for non-CS students to accompany a then-new class on Natural and Artificial Neural Networks by Christos Papaidimitriou.
 \item Created a series of Colab notebooks and short lectures to accompany each topic for a lab with fifteen students.
@@ -249,7 +298,7 @@ Intervention Strategies in India.''\\
 
 
 \begin{rSubsection}{Graduate Teaching Assistant}{January 2021 - April 2021}{Columbia University Department of Computer Science}{}
-\item Holds office hours, grades assignments, and prepares course materials for Introduction to Computational Learning Theory.
+\item Held office hours, graded assignments, and prepared course materials for Introduction to Computational Learning Theory, taught by Rocco Servedio.
 \end{rSubsection}
 
 \begin{rSubsection}{Head Teaching Assistant}{April 2017 - December 2017}{Brown University Department of Computer Science}{}
@@ -285,6 +334,7 @@ Intervention Strategies in India.''\\
 \begin{rSection}{Research Talks}
 \begin{rSubsection}{}{}{}
 
+\item Algorithms seminar, Google NYC, July 2023. ``Representational Strengths and Limitations of Transformers.''
 \item Data Science guest lecture, UC San Diego, May 2023. ``Representational Strengths and Limitations of Transformers.''
 \item Engaged Scholars Program Research Symposium, Columbia University, April 2023. ``Machine Learning, Neural Networks, and CS Theory.''
 \item Columbia StatisticalML Symposium, Columbia University, April 2023. ``Transformers can learn pairwise---but not three-wise---functions.''
@@ -311,13 +361,13 @@ Intervention Strategies in India.''\\
 \begin{rSubsection}{}{}{}
 
 % \begin{itemize}
-    \item Organized the CS theory student retreat in fall 2021 and 2022.
-    \item Ran events at and coordinated the Columbia Visit Day for admitted students in Spring 2020.
+    \item Organized the CS theory student retreat in Fall 2021 and 2022.
+    \item Ran events at and coordinated the Columbia Visit Day for admitted students in Spring 2020, 2022, and 2023.
     \item Started the Columbia Theory Student seminar, where students share their research on a weekly basis.
-    \item Advised two cohorts of undergraduate theory seminars on ML theory.
-    \item Planned the Columbia TCS student retreat for fall 2021.
+    \item Advised three cohorts of undergraduate theory seminars on ML and deep learning theory.
 % \end{itemize}
 \end{rSubsection}
+\end{rSection}
 
 \begin{rSection}{Academic Service}
 \begin{rSubsection}{Reviewer}{}{}
@@ -329,60 +379,20 @@ Intervention Strategies in India.''\\
 
 \end{rSection}
 
-\begin{rSection}{Leadership and Mentorship Experience}
-
-\begin{rSubsection}{Community Board Member}{May 2023 - present}{Manhattan Community Board 9}{New York, New York}
-\item Appointed by the borough president to represent community needs of a district on the west side of Manhattan between 110th and 155th St. 
-\end{rSubsection}
-
-\begin{rSubsection}{President}{September 2022 - present}{qSTEM (LGBTQ affinity for School of Engineering)}{Columbia University}
-\item Organized coffee hours, happy hours, movie showings, and board game nights to build community among LGBTQ grad students.
-\end{rSubsection}
-
-\begin{rSubsection}{PhD Representative}{May 2022 - present}{Department of Computer Science}{Columbia University}
-\item Coordinated a well-attended PhD student welcome event to help new students visit.
-\item Attends faculty meetings to represent student concerns and communicate faculty decisions to student body.
-\item Personally assisted students ensure that the department is paying them adequately and assisted international students with CPT approval issues.
-\end{rSubsection}
-
-
-\begin{rSubsection}{President}{February 2015 - May 2018}{Applied Math Department of Undergraduates (APMA DUG)}{Brown University}
-\item Hosted well-attended advising panels for students interested in Applied Math courses and research.
-\item Created problems for and managed a casual math competition every semester.
-\item Coordinated lectures by Applied Math faculty members for undergrads every semester.
-\item Welcomed prospective students and new concentrators by planning department-sponsored celebrations.
-\end{rSubsection}
-
-\begin{rSubsection}{President}{November 2014 - May 2018}{Outing Club}{Brown University}
-\item Led an executive board of forty members that ran trips every weekend of the academic year.
-\item Managed and apportioned a \$27000 annual budget.
-\item Recruited, interviewed, and trained new trip leaders.
-\end{rSubsection}
-
-\begin{rSubsection}{Peer Advisor}{September 2017 - May 2018}{Matched Advising Program for Sophomores (MAPS)}{Brown University}
-\item Advised two sophomore Applied Math students as they declared their concentrations and decided on coursework and internships.
-\end{rSubsection}
-
-\begin{rSubsection}{Peer Advisor}{September 2015 - May 2017}{Meiklejohn Peer Advisory Program}{Brown University}
-\item Advised eleven first year students on adjusting to college life, selecting courses, building connections, and finding their academic paths.
-\end{rSubsection}
-
-\end{rSection}
-
- 
  %----------------------------------------------------------------------------------------
 %	TECHNICAL SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Miscellaneous}
+\begin{rSection}{Technical skills and interests}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Programming Languages &  Python, Java, Matlab, SQL, Scala, Javascript, PHP, Perl, LaTeX, SQL \\
-Technologies & Tensorflow, Pytorch, Docker, Kubernetes, Hadoop, Spark, Git  \\
+Technologies & Pytorch, Tensorflow, Docker, Kubernetes, Hadoop, Spark, Git  \\
 Spoken Languages & English (native), Spanish (intermediate proficiency) \\
 Other Interests & Backpacking, Running, Climbing, Cooking, New York, Public Transportation
 \end{tabular}
 
 \end{rSection}
+
 
 \end{document}
