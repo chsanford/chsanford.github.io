@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  9 SEP 2023 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  7 NOV 2023 13:04
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -337,19 +337,17 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
  []
 
 
-Overfull \hbox (20.1614pt too wide) in paragraph at lines 44--45
-[]\OT1/cmr/m/n/10 Coursework: Randomized Algorithms; Optimization Methods; ML T
-heory; Economics, AI, and Optimization; Computation
- []
+resume.tex:76: LaTeX Error: Something's wrong--perhaps a missing \item.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \end{rSubsection}
+                      
+? 
 
-Overfull \hbox (3.16255pt too wide) in paragraph at lines 49--50
-[]\OT1/cmr/m/n/10 Coursework: ML; Combinatorial Optimization; Cryptography; Com
-putational Linear Algebra; Algorithms; Information
- []
-
-
-Overfull \hbox (0.39378pt too wide) in paragraph at lines 66--67
+Overfull \hbox (0.39378pt too wide) in paragraph at lines 92--93
 \OT1/cmr/m/n/10 isomorphisms between different combinatorial problems, to suppo
 rt positive empirical results. (Manuscript in progress.) 
  []
@@ -364,11 +362,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  8292 strings out of 480616
  134674 string characters out of 2895960
- 443160 words of memory out of 3000000
+ 443258 words of memory out of 3000000
  26093 multiletter control sequences out of 15000+600000
  404690 words of font info for 31 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 70i,6n,76p,580b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,5n,76p,580b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 </Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1
 /public/amsfonts/cm/cmbx10.pfb></Users/Clayton/Library/Application Support/MiKT
 eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/Clayton/Lib
@@ -376,9 +374,9 @@ rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></Users/Clayton/Library/Application Suppo
 rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 95620 bytes).
+Output written on resume.pdf (2 pages, 102468 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

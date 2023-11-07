@@ -28,8 +28,8 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Clayton H. Sanford} % Your name
 %\address{19 Clementina St. \#204 \\ San Francisco, CA 94105} % Your address
-\address{\href{http://claytonsanford.com}{claytonsanford.com} \\ clayton@cs.columbia.edu} % Your phone number and email
-\address{LinkedIn: in/claytonsanford \\ Github: chsanford}
+\address{\href{http://claytonsanford.com}{claytonsanford.com} \\ clayton@cs.columbia.edu \\ (831) 332-0431} % Your phone number and email
+\address{LinkedIn: \href{https://www.linkedin.com/in/claytonsanford/}{in/claytonsanford} \\ Github: \href{https://github.com/chsanford}{chsanford}}
 
 \begin{document}
 
@@ -37,16 +37,42 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
+\begin{rSection}{Executive Summary}
+\textbf{Machine learning researcher and theoretical computer scientist} with NSF GRFP support and a publication record at top-tier ML venues (NeurIPS, COLT)  on the fundamental representational and generalization properties of feed-forward neural networks, recurrent neural networks, and transformers.
+
+\textbf{Creative and adaptable interdisciplinary researcher} with published empirical work on the intersections of machine learning/data science and climate modeling, dynamical systems, and molecular biology.
+
+\textbf{Skilled data scientist and engineer} with successful internships at Microsoft Research and Allen Institute for AI (Outstanding Intern award) and full-time employment at LinkedIn. 
+
+\textbf{Effective communicator and leader} in technical research, teaching, academic service, and local government.
+\end{rSection}
+
+\begin{rSection}{Core Competencies}
+\begin{center}
+Machine Learning \& Artificial Intelligence 	$\diamond$ Python and Java $\diamond$ 
+Deep Learning in Pytorch \\ %$\diamond$ 
+Mathematical Modeling $\diamond$ Data Analytics (Hadoop, Spark, SQL) $\diamond$ 
+Dynamical Systems and Climate Modeling \\ % $\diamond$ 
+Communication and Leadership $\diamond$ Technical and Academic Writing $\diamond$ Public Speaking
+\end{center}
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Programming Languages &  Python, Java, Scala, SQL \\
+%Technologies & Pytorch, Tensorflow, Docker, Hadoop, Spark, Git \\
+%\end{tabular}
+
+\end{rSection}
+
 \begin{rSection}{Education}
-\begin{rSubsection}{Columbia University}{September 2019 - present}{Ph.D. in Computer Science}{New York, NY}
-\item Proposed Thesis: ``Neural Network Generalization and Approximation with Intrinsically Low-dimensional Data.''
+\begin{rSubsection}{Columbia University}{September 2019 --- May 2024 (expected)}{Ph.D. in Computer Science}{New York, NY}
+%\item Proposed Thesis: ``Neural Network Generalization and Approximation with Intrinsically Low-dimensional Data.''
 \item Advisors: Daniel Hsu and Rocco Servedio.
-\item Coursework: Randomized Algorithms; Optimization Methods; ML Theory; Economics, AI, and Optimization; Computation and the Brain.
+%\item Coursework: Randomized Algorithms; Optimization; ML Theory; Game Theory; Computation and the Brain.
 \end{rSubsection}
 
-\begin{rSubsection}{Brown University}{September 2014 - May 2018}{Sc.B. with Honors in Applied Math - Computer Science, Magna Cum Laude}{Providence, RI}
-\item Thesis: ``Applying Rademacher-Like Bounds to Combinatorial Samples and Function Selection.''
-\item Coursework: ML; Combinatorial Optimization; Cryptography; Computational Linear Algebra; Algorithms; Information Theory; Software Engineering.
+\begin{rSubsection}{Brown University}{September 2014 --- May 2018}{Sc.B. with Honors in Applied Math - Computer Science, Magna Cum Laude}{Providence, RI}
+%\item Thesis: ``Applying Rademacher-Like Bounds to Combinatorial Samples and Function Selection.''
+%\item Coursework: ML; Combinatorial Optimization; Cryptography; Comp.\ Linear Algebra; Algorithms; Info Theory; Software Engineering.
 \end{rSubsection}
 
 
@@ -61,58 +87,55 @@
 
 \begin{rSection}{Work Experience}
 
-\begin{rSubsection}{Applied Sciences Intern}{May 2023 - August 2023}{Microsoft Research}{New York, NY}
+\begin{rSubsection}{Applied Sciences Intern}{May 2023 --- August 2023}{Microsoft Research}{New York, NY}
 \item Trained transformer models with up to 500 million parameters to learn combinatorial search tasks with behavioral cloning and chain-of-thought reasoning.
 \item Proved theoretical results about the advantages of transformers over graph neural networks (GNNs) for identifying isomorphisms between different combinatorial problems, to support positive empirical results. (Manuscript in progress.) 
 \end{rSubsection}
 
-\begin{rSubsection}{Research Intern (PhD)}{May 2022 - August 2022}{Allen Institute for AI}{Seattle, WA}
+\begin{rSubsection}{Research Intern (PhD)}{May 2022 --- August 2022}{Allen Institute for AI}{Seattle, WA}
 \item Improved reliability and quality of annual temperature and humidity estimates of ML-corrected coarse-grid climate model with novelty detection.
 \item Presentations at NeurIPS 2022 climate ML workshop and American Meteorological Society.
 \item Contributions recognized with Outstanding Intern award.
 \end{rSubsection}
 
 
-\begin{rSubsection}{Software Engineering Intern}{April 2019 - August 2019}{Lumi Labs}{Palo Alto, CA}
+\begin{rSubsection}{Software Engineering Intern}{April 2019 --- August 2019}{Lumi Labs}{Palo Alto, CA}
 \item Designed and built front-end (Objective C) and back-end (Java and Scala) features as at 15-person startup.
 \item Implemented clustering algorithms on geographic data in Java.
 \end{rSubsection}
 
-\begin{rSubsection}{Associate Data Scientist}{August 2018 - April 2019}{LinkedIn}{San Francisco, CA}
+\begin{rSubsection}{Associate Data Scientist}{August 2018 --- April 2019}{LinkedIn}{San Francisco, CA}
 \item Analyzed usage patterns of LinkedIn Learning, conducted A/B tests, and tracked metrics with Hive and Spark.
 \end{rSubsection}
-
-
 \end{rSection}
+\newpage
 \begin{rSection}{Publications}
-C. Sanford, D. Hsu, M. Telgarsky. ``Representational strengths and limitations of transformers.'' \textit{Submitted for publication,} 2023.
+\begin{rSubsection}{Machine learning theory}{}{}{}{}
+\item C. Sanford, D. Hsu, M. Telgarsky. \href{https://arxiv.org/abs/2306.02896}{``Representational strengths and limitations of transformers.''} \textit{Appearing at Neural Informational Processing Systems (NeurIPS) 2023.}
 
+\item N. Ardeshir*, D Hsu*, C. Sanford*. \href{https://proceedings.mlr.press/v195/ardeshir23a.html}{``Intrinsic dimensionality and generalization properties of the R-norm inductive bias.''} \textit{Conference on Learning Theory (COLT) 2023.}
 
-C. Sanford, A. Kwa, O. Watt-Meyer, S. Clark, N. Brenowitz, J. McGibbon, C. Bretherton. ``Improving the predictions of ML-corrected climate models with novelty detection.'' \textit{Submitted for publication,} 2023.
+\item A. Bietta*, J. Bruna*, C. Sanford*, M. Song*. \href{https://proceedings.neurips.cc/paper_files/paper/2022/hash/3fb6c52aeb11e09053c16eabee74dd7b-Abstract-Conference.html}{``Learning single-index models with shallow neural networks.''} \textit{NeurIPS 2022.}
 
-N. Ardeshir*, D Hsu*, C. Sanford*. ``Intrinsic dimensionality and generalization properties of the R-norm inductive bias.'' \textit{Conference on Learning Theory (COLT) 2023.}
+\item V. Chatziafratis*, I. Panageas*, C. Sanford*, S. Stavroulakis*. \href{https://proceedings.neurips.cc/paper_files/paper/2022/hash/755acd0c7c07180d78959b6d89768207-Abstract-Conference.html}{``On scrambling phenomena for randomly initialized recurrent networks.''} \textit{NeurIPS 2022.}
 
-A. Bietta*, J. Bruna*, C. Sanford*, M. Song*. ``Learning single-index models with shallow neural networks.'' \textit{Neural Informational Processing Systems (NeurIPS) 2022.}
+\item D. Hsu*, C. Sanford*, R. Servedio*, E.-V. Vlatakis-Gkaragkounis*. \href{https://proceedings.mlr.press/v178/hsu22a.html}{``Near-Optimal Statistical Query Lower Bounds for Agnostically Learning Intersections of Halfspaces with Gaussian Marginals.''} \textit{COLT 2022.}
 
-V. Chatziafratis*, I. Panageas*, C. Sanford*, S. Stavroulakis*. ``On scrambling phenomena for randomly initialized recurrent networks.'' \textit{NeurIPS 2022.}
+\item C. Sanford, V. Chatziafratis. \href{https://proceedings.mlr.press/v151/sanford22a.html}{``Expressivity of Neural Networks via Chaotic Itineraries beyond Sharkovsky's Theorem.''} \textit{AISTATS 2022.}
 
-D. Hsu*, C. Sanford*, R. Servedio*, E.-V. Vlatakis-Gkaragkounis*. ``Near-Optimal Statistical Query Lower Bounds for Agnostically Learning Intersections of Halfspaces with Gaussian Marginals.'' \textit{COLT 2022.}
+\item N. Ardeshir*, C. Sanford*, D. Hsu. \href{https://proceedings.neurips.cc/paper/2021/hash/26d4b4313a7e5828856bc0791fca39a2-Abstract.html}{``Support vector machines and linear regression coincide with very high-dimensional features.''} \textit{NeurIPS 2021.}
 
+\item D. Hsu*, C. Sanford*, R. Servedio*, E.-V. Vlatakis-Gkaragkounis*. \href{https://proceedings.mlr.press/v134/hsu21a.html}{``On the Approximation Power of Two-Layer Networks of Random ReLUs.''} \textit{COLT 2021.}
+\end{rSubsection}
 
-C. Sanford, V. Chatziafratis. ``Expressivity of Neural Networks via Chaotic Itineraries beyond Sharkovsky's Theorem.'' \textit{AISTATS 2022.}
+\begin{rSubsection}{Interdisciplinary ML and data science}{}{}{}{}
+\item C. Sanford, A. Kwa, O. Watt-Meyer, S. Clark, N. Brenowitz, J. McGibbon, C. Bretherton. \href{https://essopenarchive.org/doi/full/10.22541/essoar.168500343.32924398}{``Improving the predictions of ML-corrected climate models with novelty detection.''} \textit{Appearing in Journal of Advances in Modeling Earth Systems.}
 
+\item T. Chin*, J. Ruth*, C. Sanford*, R. Santorella*, P. Carter, B. Sandstede. \href{https://link.springer.com/article/10.1007/s10884-021-10127-w}{``Enabling equation-free modeling via diffusion maps.''} \textit{Journal of Dynamics and Differential Equations,} 2022.
 
-T. Chin*, J. Ruth*, C. Sanford*, R. Santorella*, P. Carter, B. Sandstede. ``Enabling equation-free modeling via diffusion maps.'' \textit{Journal of Dynamics and Differential Equations,} 2022.
-
-
-N. Ardeshir*, C. Sanford*, D. Hsu. ``Support vector machines and linear regression coincide with very high-dimensional features.'' \textit{NeurIPS 2021.}
-
-
-D. Hsu*, C. Sanford*, R. Servedio*, E.-V. Vlatakis-Gkaragkounis*. ``On the Approximation Power of Two-Layer Networks of Random ReLUs.'' \textit{COLT 2021.}
-
-
-K. Cygan*, C. Sanford*, W. Fairbrother. ``Spliceman2 - A Computational Web Server That Predicts Sequence Variations in Pre-mRNA Splicing.''
+\item K. Cygan*, C. Sanford*, W. Fairbrother. \href{https://academic.oup.com/bioinformatics/article/33/18/2943/3887237?login=true}{``Spliceman2 - A Computational Web Server That Predicts Sequence Variations in Pre-mRNA Splicing.''}
 \textit{Bioinformatics} 33 (18), 2017.
+\end{rSubsection}
 
 
 \end{rSection}
@@ -141,32 +164,22 @@ Top 5 teams out of over 3000 in 96-hour math modeling competition on water scarc
 
 
 \begin{rSection}{Teaching and Service} \itemsep -2pt
-\textbf{Reviewer:} NeurIPS (2023), JMLR (2023), ICLR climate workshop (2023), SODA (2022), STOC (2022). 
+\textbf{Reviewer:} ICLR (2024), ALT (2024), NeurIPS (2023), JMLR (2023), SODA (2022), STOC (2022). 
 
 
-\textbf{Teaching Assistant, Brown and Columbia Universities} \hfill September 2015 - present \\
+\textbf{Teaching Assistant, Brown and Columbia Universities} \hfill September 2015 --- present \\
 Designed assignments, taught lab sections, held office hours, and hired undergraduates TAs, and managed course logistics as a TA for 8 different computer science and applied math classes.
 
 
-\textbf{PhD Representative, Columbia Computer Science} \hfill September 2022 - present \\
+\textbf{PhD Representative, Columbia Computer Science} \hfill September 2022 --- present \\
 Serves as liaison between computer science students, faculty, and administrators and attends faculty meetings.
 
-\textbf{Community Board Member, Manhattan Community Board 9} \hfill May 2023 - present \\
+\textbf{Community Board Member, Manhattan Community Board 9} \hfill May 2023 --- present \\
 Appointed by the borough president to represent community needs of a district on the west side of Manhattan between 110th and 155th St. Serves on Economic Development and LGBTQ Committees.
 
-\textbf{President, qSTEM} \hfill September 2022 - September 2023 \\
+\textbf{President, qSTEM} \hfill September 2022 --- September 2023 \\
 Led a team of student organizers in planning events for LGBTQ+ students at the Columbia School of Engineering. 
 
-
-\end{rSection}
-
-
-\begin{rSection}{Technical Skills}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages &  Python, Java, Scala, SQL \\
-Technologies & Pytorch, Tensorflow, Docker, Hadoop, Spark, Git \\
-\end{tabular}
 
 \end{rSection}
 

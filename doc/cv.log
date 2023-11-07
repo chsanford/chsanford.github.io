@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  18 SEP 2023 13:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  7 NOV 2023 12:11
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -388,19 +388,19 @@ ing, Artificial Intelligence, Foundations of Prescriptive Analytics,
  []
 
 [4]
-Overfull \hbox (23.45702pt too wide) in paragraph at lines 337--338
+Overfull \hbox (23.45702pt too wide) in paragraph at lines 340--341
 []\OT1/cmr/m/n/10.95 Algorithms seminar, Google NYC, July 2023. ``Representatio
 nal Strengths and Limitations of Transformers.'' 
  []
 
 
-Overfull \hbox (12.00389pt too wide) in paragraph at lines 340--341
+Overfull \hbox (12.00389pt too wide) in paragraph at lines 343--344
 []\OT1/cmr/m/n/10.95 Columbia StatisticalML Symposium, Columbia University, Apr
 il 2023. ``Transformers can learn pairwise---
  []
 
 [5]
-Overfull \hbox (52.7134pt too wide) in paragraph at lines 388--394
+Overfull \hbox (52.7134pt too wide) in paragraph at lines 391--397
 [][] 
  []
 
@@ -411,7 +411,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  8314 strings out of 480616
  134758 string characters out of 2895960
- 441167 words of memory out of 3000000
+ 441185 words of memory out of 3000000
  26104 multiletter control sequences out of 15000+600000
  407770 words of font info for 41 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -425,7 +425,7 @@ fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/Clayton/Library/Application Su
 pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/C
 layton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
 fonts/cm/cmti10.pfb>
-Output written on cv.pdf (6 pages, 109589 bytes).
+Output written on cv.pdf (6 pages, 109963 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
