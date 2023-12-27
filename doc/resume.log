@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  7 NOV 2023 13:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2023.11.17)  27 DEC 2023 12:57
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -346,12 +346,6 @@ Type  H <return>  for immediate help.
 l.76 \end{rSubsection}
                       
 ? 
-
-Overfull \hbox (0.39378pt too wide) in paragraph at lines 92--93
-\OT1/cmr/m/n/10 isomorphisms between different combinatorial problems, to suppo
-rt positive empirical results. (Manuscript in progress.) 
- []
-
 [1
 
 {/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
@@ -360,12 +354,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8292 strings out of 480616
- 134674 string characters out of 2895960
- 443258 words of memory out of 3000000
- 26093 multiletter control sequences out of 15000+600000
+ 8292 strings out of 478682
+ 134674 string characters out of 2837086
+ 449048 words of memory out of 3000000
+ 26335 multiletter control sequences out of 15000+600000
  404690 words of font info for 31 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  70i,5n,76p,580b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 </Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1
 /public/amsfonts/cm/cmbx10.pfb></Users/Clayton/Library/Application Support/MiKT
@@ -374,7 +368,7 @@ rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></Users/Clayton/Library/Application Suppo
 rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 102468 bytes).
+Output written on resume.pdf (2 pages, 102845 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)

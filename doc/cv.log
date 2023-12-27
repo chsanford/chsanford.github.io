@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.11.29)  7 NOV 2023 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2023.11.17)  7 DEC 2023 21:05
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -344,90 +344,91 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
 
 
 Overfull \hbox (7.49834pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/n/10.95 Proposed Thesis: ``Neural Network Generalization and Appro
-ximation with Intrinsically Low-dimensional
- []
-
-
-Overfull \hbox (0.57613pt too wide) in paragraph at lines 102--103
-[]\OT1/cmr/m/n/10.95 Work presented at NeurIPS 2022 climate ML workshop and Ame
-rican Meteorological Society conference,
+[]\OT1/cmr/m/n/10.95 Proposed The-sis: ``Neu-ral Net-work Gen-er-al-iza-tion an
+d Ap-prox-i-ma-tion with In-trin-si-cally Low-dimensional
  []
 
 [1
 
 {/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
 ftex.map}]
-Overfull \hbox (0.8422pt too wide) in paragraph at lines 136--137
-[]\OT1/cmr/m/n/10.95 V. Chatziafratis*, I. Panageas*, C. Sanford*, S. Stavroula
-kis*. ``On scrambling phenomena for randomly
+Overfull \hbox (14.2864pt too wide) in paragraph at lines 144--145
+[]\OT1/cmr/m/n/10.95 C. San-ford, V. Chatzi-afratis. []``Ex-pres-siv-ity of Neu
+-ral Net-works via Chaotic Itineraries be-yond Sharkovsky's
  []
 
+[2] [3] [4]
 
-Overfull \hbox (10.62672pt too wide) in paragraph at lines 138--139
-\OT1/cmr/m/n/10.95 Lower Bounds for Agnostically Learning Intersections of Half
-spaces with Gaussian Marginals.'' \OT1/cmr/m/it/10.95 Conference
- []
+cv.tex:368: LaTeX Error: Something's wrong--perhaps a missing \item.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368 \item F
+             ormal Languages and Neural Networks (FLANN) talk, virtual, Nove...
 
-Overfull \hbox (14.2864pt too wide) in paragraph at lines 140--141
-[]\OT1/cmr/m/n/10.95 C. Sanford, V. Chatziafratis. ``Expressivity of Neural Net
-works via Chaotic Itineraries beyond Sharkovsky's
- []
+? 
 
-[2]
-Overfull \hbox (19.74109pt too wide) in paragraph at lines 210--211
-[]\OT1/cmr/m/n/10.95 Personally assisted students ensure that the department is
- paying them adequately and assisted international
- []
+cv.tex:368: LaTeX Error: Something's wrong--perhaps a missing \item.
 
-[3]
-Overfull \hbox (7.67995pt too wide) in paragraph at lines 246--247
-[]\OT1/cmr/bx/n/10.95 Artificial Intelligence: \OT1/cmr/m/n/10.95 Machine Learn
-ing, Artificial Intelligence, Foundations of Prescriptive Analytics,
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368 \item F
+             ormal Languages and Neural Networks (FLANN) talk, virtual, Nove...
 
-[4]
-Overfull \hbox (23.45702pt too wide) in paragraph at lines 340--341
-[]\OT1/cmr/m/n/10.95 Algorithms seminar, Google NYC, July 2023. ``Representatio
-nal Strengths and Limitations of Transformers.'' 
- []
+? 
 
+cv.tex:368: LaTeX Error: Something's wrong--perhaps a missing \item.
 
-Overfull \hbox (12.00389pt too wide) in paragraph at lines 343--344
-[]\OT1/cmr/m/n/10.95 Columbia StatisticalML Symposium, Columbia University, Apr
-il 2023. ``Transformers can learn pairwise---
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.368 \item F
+             ormal Languages and Neural Networks (FLANN) talk, virtual, Nove...
 
-[5]
-Overfull \hbox (52.7134pt too wide) in paragraph at lines 391--397
-[][] 
- []
+? 
 
-[6] (cv.aux)
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+cv.tex:369: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 \item J
+             oan Bruna group meeting, NYU, October 2023. ``Representational ...
+
+? 
+
+cv.tex:369: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 \item J
+             oan Bruna group meeting, NYU, October 2023. ``Representational ...
+
+? 
+cv.tex:369: Emergency stop.
+ ...                                              
+                                                  
+l.369 \item J
+             oan Bruna group meeting, NYU, October 2023. ``Representational ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
 Here is how much of TeX's memory you used:
- 8314 strings out of 480616
- 134758 string characters out of 2895960
- 441185 words of memory out of 3000000
- 26104 multiletter control sequences out of 15000+600000
+ 8311 strings out of 478682
+ 134840 string characters out of 2837086
+ 445974 words of memory out of 3000000
+ 26346 multiletter control sequences out of 15000+600000
  407770 words of font info for 41 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 70i,6n,76p,576b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
-ur/jknappen/ec/dpi600/tcrm1095.pk></Users/Clayton/Library/Application Support/M
-iKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/Clayton/
-Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/Clayton/Library/Application Su
-pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/C
-layton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmti10.pfb>
-Output written on cv.pdf (6 pages, 109963 bytes).
-PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 1141 hyphenation exceptions out of 8191
+ 70i,5n,76p,576b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+cv.tex:369:  ==> Fatal error occurred, no output PDF file produced!
