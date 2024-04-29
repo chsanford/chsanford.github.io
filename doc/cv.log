@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2023.11.17)  7 DEC 2023 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2023.11.17)  24 FEB 2024 18:52
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -352,83 +352,46 @@ d Ap-prox-i-ma-tion with In-trin-si-cally Low-dimensional
 
 {/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
 ftex.map}]
-Overfull \hbox (14.2864pt too wide) in paragraph at lines 144--145
+Overfull \hbox (14.2864pt too wide) in paragraph at lines 146--147
 []\OT1/cmr/m/n/10.95 C. San-ford, V. Chatzi-afratis. []``Ex-pres-siv-ity of Neu
 -ral Net-works via Chaotic Itineraries be-yond Sharkovsky's
  []
 
 [2] [3] [4]
+Overfull \hbox (12.00389pt too wide) in paragraph at lines 377--378
+[]\OT1/cmr/m/n/10.95 Columbia Sta-tis-ti-calML Sym-po-sium, Columbia Uni-ver-si
+ty, April 2023. ``Trans-form-ers can learn pairwise---
+ []
 
-cv.tex:368: LaTeX Error: Something's wrong--perhaps a missing \item.
+[5]
+Overfull \hbox (15.27042pt too wide) in paragraph at lines 425--431
+[][] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 \item F
-             ormal Languages and Neural Networks (FLANN) talk, virtual, Nove...
-
-? 
-
-cv.tex:368: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 \item F
-             ormal Languages and Neural Networks (FLANN) talk, virtual, Nove...
-
-? 
-
-cv.tex:368: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.368 \item F
-             ormal Languages and Neural Networks (FLANN) talk, virtual, Nove...
-
-? 
-
-cv.tex:369: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.369 \item J
-             oan Bruna group meeting, NYU, October 2023. ``Representational ...
-
-? 
-
-cv.tex:369: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.369 \item J
-             oan Bruna group meeting, NYU, October 2023. ``Representational ...
-
-? 
-cv.tex:369: Emergency stop.
- ...                                              
-                                                  
-l.369 \item J
-             oan Bruna group meeting, NYU, October 2023. ``Representational ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- 
+[6] (cv.aux)
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 8311 strings out of 478682
- 134840 string characters out of 2837086
+ 8314 strings out of 478682
+ 134758 string characters out of 2837086
  445974 words of memory out of 3000000
  26346 multiletter control sequences out of 15000+600000
  407770 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,5n,76p,576b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
-cv.tex:369:  ==> Fatal error occurred, no output PDF file produced!
+ 70i,6n,76p,576b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
+ur/jknappen/ec/dpi600/tcrm1095.pk></Users/Clayton/Library/Application Support/M
+iKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/Clayton/
+Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/Clayton/Library/Application Su
+pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/C
+layton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmti10.pfb>
+Output written on cv.pdf (6 pages, 115451 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
