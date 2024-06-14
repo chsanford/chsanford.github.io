@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2023.11.17)  24 FEB 2024 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2024.3.13)  6 JUN 2024 12:18
 entering extended mode
 **./resume.tex
 (resume.tex
@@ -346,31 +346,33 @@ Type  H <return>  for immediate help.
 l.76 \end{rSubsection}
                       
 ? 
-[1
+resume.tex:76: Emergency stop.
+ ...                                              
+                                                  
+l.76 \end{rSubsection}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-{/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
-ftex.map}] [2] (resume.aux)
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 8292 strings out of 478682
- 134674 string characters out of 2837086
- 449048 words of memory out of 3000000
+ 8287 strings out of 478682
+ 134729 string characters out of 2837087
+ 433895 words of memory out of 3000000
  26335 multiletter control sequences out of 15000+600000
  404690 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,5n,76p,580b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
-</Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmbx10.pfb></Users/Clayton/Library/Application Support/MiKT
+ 70i,2n,76p,580b,146s stack positions out of 5000i,500n,10000p,200000b,80000s
+resume.tex:76:  ==> Fatal error occurred, no output PDF file produced!
+blic/amsfonts/cm/cmbx10.pfb></Users/Clayton/Library/Application Support/MiKT
 eX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/Clayton/Lib
 rary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></Users/Clayton/Library/Application Support/MiKTeX/texmfs/install/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></Users/Clayton/Library/Application Suppo
 rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 103137 bytes).
+Output written on resume.pdf (2 pages, 103046 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
