@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2024.3.13)  6 JUN 2024 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2024.3.13)  24 SEP 2024 21:33
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -342,38 +342,48 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 34--34
 [] 
  []
 
+
+cv.tex:96: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \end{rSubsection}
+                      
+? 
 [1
 
 {/Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pd
 ftex.map}]
-Overfull \hbox (14.2864pt too wide) in paragraph at lines 149--150
+Overfull \hbox (14.2864pt too wide) in paragraph at lines 151--152
 []\OT1/cmr/m/n/10.95 C. San-ford, V. Chatzi-afratis. []``Ex-pres-siv-ity of Neu
 -ral Net-works via Chaotic Itineraries be-yond Sharkovsky's
  []
 
-[2] [3] [4]
-Overfull \hbox (12.00389pt too wide) in paragraph at lines 382--383
+[2] [3] [4] [5]
+Overfull \hbox (12.00389pt too wide) in paragraph at lines 386--387
 []\OT1/cmr/m/n/10.95 Columbia Sta-tis-ti-calML Sym-po-sium, Columbia Uni-ver-si
 ty, April 2023. ``Trans-form-ers can learn pairwise---
  []
 
-[5]
-Overfull \hbox (15.27042pt too wide) in paragraph at lines 430--436
+[6]
+Overfull \hbox (15.27042pt too wide) in paragraph at lines 434--440
 [][] 
  []
 
-[6] (cv.aux)
+[7] (cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8314 strings out of 478682
- 134758 string characters out of 2837087
- 446974 words of memory out of 3000000
+ 8315 strings out of 478682
+ 134764 string characters out of 2837087
+ 445974 words of memory out of 3000000
  26346 multiletter control sequences out of 15000+600000
  407770 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,6n,76p,576b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,6n,76p,576b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/Clayton/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfo
 ur/jknappen/ec/dpi600/tcrm1095.pk></Users/Clayton/Library/Application Support/M
 iKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/Clayton/
@@ -383,9 +393,9 @@ fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/Clayton/Library/Application Su
 pport/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/C
 layton/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/ams
 fonts/cm/cmti10.pfb>
-Output written on cv.pdf (6 pages, 116403 bytes).
+Output written on cv.pdf (7 pages, 116998 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
